@@ -3,7 +3,7 @@ on:
   push:
     # Publish `master` as Docker `latest` image.
     branches:
-      - master
+      - main
 
 jobs:
   # Run tests.
