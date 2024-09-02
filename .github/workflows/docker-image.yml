@@ -8,7 +8,7 @@ on:
 jobs:
   # Run tests.
   # See also https://docs.docker.com/docker-hub/builds/automated-testing/
-  pipline:
+  pipeline:
     runs-on: ubuntu-latest
 
     steps:
