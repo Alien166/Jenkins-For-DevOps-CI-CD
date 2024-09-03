@@ -16,6 +16,6 @@ jobs:
 
       - name: Run pipeline
         run: |
-            docker build . --file dockerfile -t toba44/jenkins_iti:v1.10
+            docker build . --file dockerfile -t toba44/jenkins_iti:v1.11
             docker login -u ${{ secrets.DOCKER_USERNAME}} -p ${{secrets.DOCKER_PASSWORD}}
-            docker push toba44/jenkins_iti:v1.10
+            docker push toba44/jenkins_iti:v1.11
